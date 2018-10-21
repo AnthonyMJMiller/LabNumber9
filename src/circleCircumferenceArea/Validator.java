@@ -52,7 +52,7 @@ public class Validator {
 				if (d >= 0 && d != -0) {
 				isValid = true;
 				} else {
-					System.out.println("Number must be a positive value. Enter a positive value number.");
+					System.out.println("Number must be a positive value. Enter a positive number value.");
 				}
 			} else {
 				System.out.println("Error! Invalid decimal value for circle. Try again.");
