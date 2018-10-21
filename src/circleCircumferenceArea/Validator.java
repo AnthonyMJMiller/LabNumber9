@@ -49,7 +49,7 @@ public class Validator {
 			System.out.print(prompt);
 			if (sc.hasNextDouble()) {
 				d = sc.nextDouble();
-				if (d >= 0) {
+				if (d >= 0 && d != -0) {
 				isValid = true;
 				} else {
 					System.out.println("Number must be a positive value. Enter a positive value number.");
